@@ -2,9 +2,6 @@
 
 FitLife é um projeto de site fitness responsivo desenvolvido com HTML, CSS e JavaScript, com foco em design moderno, experiência do usuário e adaptação para diferentes dispositivos.
 
-## 📸 Preview
-![Preview do projeto](./readme-images/desktop.png)
-
 ---
 
 ## 🚀 Sobre o projeto
