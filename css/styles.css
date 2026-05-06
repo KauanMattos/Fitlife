@@ -159,12 +159,22 @@ main {
     color: var(--secondary-color);
 }
 
-.form-group input {
+.form-group input,
+.form-group select {
     padding: 0.8rem;
     border: 2px solid var(--border-color);
     border-radius: 10px;
     font-size: 1rem;
     font-family: inherit;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+}
+
+.form-group select {
+    outline: none;
 }
 
 .action-btn {
@@ -175,8 +185,77 @@ main {
     border-radius: 10px;
     font-size: 1rem;
     font-weight: 600;
-    font-family: "inherit";
+    font-family: inherit;
     cursor: pointer;
     text-decoration: none;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.action-btn:hover {
+    background-color: var(--primary-dark);
+}
+
+.btn-back {
+    background-color: var(--muted-color);
+}
+
+.btn-back:hover {
+    background-color: var(--secondary-color);
+}
+
+.water-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 1.5rem 0;
+    font-weight: 600;
+}
+
+.water-buttons button {
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    color: var(--card-color);
+}
+
+.btn-add {
+    background-color: var(--water-color);
+}
+
+.btn-add:hover {
+    background-color: var(--water-color);
+}
+
+.btn-reset {
+    background-color: var(--danger-color);
+}
+
+.btn-reset:hover{
+    background-color: var(--danger-color);
+}
+
+.meta-box {
+    width: 60%;
+    text-align: center;
+    padding: 1.2rem;
+    background-color: var(--primary-color);
+    color: var(--card-color);
+    border-radius: 30px;
+    font-family: inherit;
+    font-weight: 600;
+    margin: 2rem auto;
+}
+
+.total-water {
+    margin-bottom: 50px;
+}
+
+.result-box {
+    padding: 1.25rem;
+    background-color: #e8f8f5;
+    border-radius: 10px;
     text-align: center;
 }
