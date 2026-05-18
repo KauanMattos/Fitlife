@@ -204,6 +204,18 @@ main {
     background-color: var(--secondary-color);
 }
 
+.result-box {
+    display: none;
+    padding: 1.25rem;
+    background-color: #e8f8f5;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.show {
+    display: block;
+}
+
 @media (max-width: 400px) {
     nav {
         flex-direction: column;
